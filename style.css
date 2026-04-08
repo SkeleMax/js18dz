@@ -1,0 +1,31 @@
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.gallery-img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+
+#counter {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#ingredients {
+  list-style: none; 
+  padding: 0;
+}
+
+#categories {
+  list-style: none; 
+}
